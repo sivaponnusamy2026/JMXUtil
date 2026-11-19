@@ -119,3 +119,13 @@ $ java -jar jmxdiag.jar prod-pod.internal:9010
     -> Stub advertises unreachable internal address 10.42.3.17. Set
        -Djava.rmi.server.hostname and pin the rmi.port.
 ```
+
+## License
+
+Released under the [MIT License](LICENSE).
+
+The software is provided **"AS IS", without warranty of any kind**. It is a
+diagnostic utility that connects to and reads management data from systems you
+specify; you are responsible for ensuring you are authorized to do so and you
+use it entirely **at your own risk**. See the [LICENSE](LICENSE) file for the
+full warranty disclaimer and risk-assumption terms.
