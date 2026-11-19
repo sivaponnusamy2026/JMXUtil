@@ -1,0 +1,14 @@
+# Build output
+out/
+target/
+*.class
+
+# Built artifact (produced by build.sh / build.bat / mvn)
+jmxdiag.jar
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
